@@ -130,3 +130,8 @@ token = { env = "GITHUB_TOKEN" }
 
 [tool.semantic_release.publish]
 upload_to_vcs_release = true
+
+[tool.wood.architecture]
+domain = "templates"
+capability = "project-scaffolding"
+kind = "python-library-template"
